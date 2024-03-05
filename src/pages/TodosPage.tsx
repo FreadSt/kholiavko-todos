@@ -31,6 +31,7 @@ export const TodosPage: React.FC = () => {
     dispatch(toggleTodo(id));
   };
 
+
   const removeHandler = (id: number) => {
     const shouldRemove = confirm('Are you sure?');
     if (shouldRemove) {
